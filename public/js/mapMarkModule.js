@@ -7,7 +7,7 @@ const MapMarkModule = (function () {
         googleMapApi =  googleMapApiArg;
         map = mapArg;
         iceCreamStores = [];
-        markerImagePath = "public/images/ice-cream-map@1x.png";
+        markerImagePath = "images/ice-cream-map@1x.png";
     };
 
     let createMarkersInit = function(results, status, pagination) {
