@@ -50,7 +50,7 @@ var MapWorkingModule = (function () {
     }
     let addMarkers = function (coords) {
         let icon = {
-            // url: "./images/ice-cream-map@1x.png", // url
+            // url: "../images/ice-cream-map@1x.png", // url
             scaledSize: new googleMapApi.Size(40, 49), // scaled size
             origin: new googleMapApi.Point(0,0), // origin
             anchor: new googleMapApi.Point(0, 0) // anchor
@@ -151,7 +151,7 @@ var MapWorkingModule = (function () {
 
         for (let i = 0, place; place = places[i]; i++) {
             let image = {
-                url: "./images/ice-cream-map@1x.png",
+                url: "public/images/ice-cream-map@1x.png",
                 size: new google.maps.Size(71, 71),
                 origin: new google.maps.Point(0, 0),
                 anchor: new google.maps.Point(17, 34),
