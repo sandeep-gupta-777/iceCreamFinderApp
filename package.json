@@ -1,0 +1,16 @@
+{
+  "name": "icecreamfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "sandeep",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2"
+  }
+}
