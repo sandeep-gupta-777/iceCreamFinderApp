@@ -7,7 +7,7 @@ const DomModule = (function () {
 
     //Module functions
     let startSpinner = function () {
-      $spinner.classList.add('fa-spinner');
+      $spinner.classList.add('fa-spinner');;
     };
     let stopSpinner = function () {
         $spinner.classList.remove('fa-spinner');

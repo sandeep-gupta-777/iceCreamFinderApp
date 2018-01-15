@@ -14,16 +14,16 @@
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/css/style.css">
 
 </head>
 <body>
 
-<!--header starts-->
+<!--header -->
 <nav class="navbar  navbar-dark bg-dark" style="height: 100px">
     <a class="navbar-brand " href="#" style="font-size: 50px">IceCreamFinder</a>
 </nav>
-<!--header ends-->
+
 
 <div class="search-container my-5" style="position: absolute;;z-index: 100">
     <div class="row  d-flex justify-content-center">
@@ -46,14 +46,14 @@
     </div>
 </div>
 
-<!--map starts-->
+<!--map markup-->
 <div id="map" style="height: 100vh; width: 100%; "></div>
 
-<!--map-->
-<script src="js/map.js"></script>
-<script src="js/mapMarkModule.js"></script>
-<script src="js/mapFindPlacesModule.js"></script>
-<script src="js/dom.js"></script>
+<!--map js files-->
+<script src="public/js/map.js"></script>
+<script src="public/js/mapMarkModule.js"></script>
+<script src="public/js/mapFindPlacesModule.js"></script>
+<script src="public/js/dom.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVnVqGUMSSfP5vDXoYbTMzL8bOAhD_hT8&callback=MapModule.initMap&libraries=places&sensor=false"></script>
 
 </body>
