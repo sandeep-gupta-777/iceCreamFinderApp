@@ -14,27 +14,27 @@
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
 <!--header starts-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand " href="#">IceCreamFinder</a>
+<nav class="navbar  navbar-dark bg-dark" style="height: 100px">
+    <a class="navbar-brand " href="#" style="font-size: 50px">IceCreamFinder</a>
 </nav>
 <!--header ends-->
 
-<div class="container1  my-5" style="position: absolute;width:100%;z-index: 100">
+<div class="search-container my-5" style="position: absolute;;z-index: 100">
     <div class="row  d-flex justify-content-center">
-        <div class="col-7 ">
-            <div class="input-group">
+        <div class="col-11 ">
+            <div class="input-group d-flex">
                 <div class="input-group-prepend">
-                        <span class="input-group-text" style="background-color: #ffffff; " id="basic-addon1"><i
+                        <span class="input-group-text"  id="basic-addon1"><i
                                 class="fa fa-search"></i></span>
                 </div>
                 <input id="searchT" type="text" class="form-control" placeholder="Search City"
-                       aria-label="Search..."
+                       aria-label="Search..." style="-webkit-appearance:none;"
                        aria-describedby="basic-addon1">
             </div>
         </div>
@@ -54,7 +54,7 @@
 <script src="js/mapMarkModule.js"></script>
 <script src="js/mapFindPlacesModule.js"></script>
 <script src="js/dom.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3v8OnhlQis2EXRDAj_ZxB8pLYlVclWsI&callback=MapModule.initMap&libraries=places&sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVnVqGUMSSfP5vDXoYbTMzL8bOAhD_hT8&callback=MapModule.initMap&libraries=places&sensor=false"></script>
 
 </body>
 </html>

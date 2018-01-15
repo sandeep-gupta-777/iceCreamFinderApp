@@ -8,8 +8,9 @@ var MapModule = (function () {
     const $map   = document.getElementById('map');
 
     let initMap =  function() {
+        console.log('Initializing the whole app');
         let options = {
-            zoom: 8,
+            zoom: 15,
             mapTypeControl:false,
             streetViewControl:false
         };

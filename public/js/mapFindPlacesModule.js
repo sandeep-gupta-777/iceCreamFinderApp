@@ -52,6 +52,7 @@ const MapFindPlacesModule = (function () {
 
             /*find ice creams stores and show */
             findIceCreamPlaces(place.geometry.location.lat(),place.geometry.location.lng());
+            console.log('find places not called');
         });
     };
 
